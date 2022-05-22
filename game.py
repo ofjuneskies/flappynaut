@@ -304,7 +304,7 @@ if __name__ == "__main__":
                                     surface.blit(txt, (SURFACE_W/2 - (txt.get_width()/2),
                                                     SURFACE_H/2 - (txt.get_height()/2)))
                                     pygame.display.update()
-                                    pygame.time.wait(2000)
+                                    pygame.time.wait(2500)
                                     surface.blit(bg, (0, 0))
                                 show_text = False
                     boss_dead = draw_stars(surface, stars, boss)
